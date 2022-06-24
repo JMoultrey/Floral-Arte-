@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+   
+nav{
+    background-image: url('./The\ Art.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    }
+
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 3px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 40px;
+    color: rgb(49, 171, 179);
+}
+nav ul li a:hover{
+    background-color: rgb(208, 134, 154);
+   }
+.Hero{
+    width: 100%;
+    height: 150px;
+}
+main .Hero h2{
+    font-size: 75px;
+    font-family:'Beau Rivage' ;
+    text-align: center;
+    color: rgb(49, 171, 179);
+    text-shadow: 2px 2px rgb(208, 134, 154)  ;
+    
+}
+main .Hero p{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.sec1{
+    height: 400px;
+    width: 100%;
+}
+.box{
+    display: inline-block;
+    
+}
+.sec1, .h4{
+    text-align: center;
+    font-family:'Beau Rivage' ;
+    font-size: 50px;
+    color:rgb(208, 134, 154)  ;
+    ;
+    
+}
+.book1{
+    border: 10px dotted rgb(208, 134, 154)  ;
+    box-shadow: 20px 20px 20px 20px ;
+    height: 300px ;
+    width: 100%;
+    text-align: center;
+    }
+.sec1, .book1 .form1, .label{
+float: center;
+margin: 5px 5px;
+padding: 5px 5px;
+display: inline-block;
+}
+.sec2, .box2, .h2{
+    font-size: 30px;
+}
+
+.sec2, .h4{
+    text-align: left;
+    font-family:'Beau Rivage' ;
+    font-size: 40px;
+    margin-bottom: 30%;
+    margin-top:15%;
+}
+.sec2 .box2{
+    height: 300px;
+    width: 50%;
+    float: right;
+    display: inline-block;
+    block-size: border-box;
+    border: 3px dashed black;
+    box-shadow: 25px 25px 25px 25px gray;
+    text-align: center
+}
+.sec2 .img1{
+   display: inline-block;
+   block-size: border-box;
+   float: left;
+   height: 300px;
+}
+.sec3{
+    border: 5px dotted black;
+    box-shadow: 15px 15px 15px 15px gray;
+    margin-bottom: 5%;
+    width: 100%;
+}
+.sec3 .box .img2{
+    float: right;
+    margin-left: 5%;
+}
+
+.sec3, .h4{
+    text-align: right;
+    font-family:'Beau Rivage' ;
+    font-size: 40px;
+    margin-top: -4%;
+}
+.sec3, .box, .p{
+    text-align:right ;
+    
+    
+}
+.sec3 .box button{
+    float: left;
+    margin-left: 10%;
+    margin-top: -3%;
+    height: 40px;
+    width: 300px;
+}
+
+.sec4, .head2 {
+    color:rgb(49, 171, 179) ;
+    font-family: 'Beau Rivage' ;
+    text-align: center;
+    font-size: 75px;
+}
+.sec4 .phr1 .par4{
+    color: black;
+    text-align: center;
+    font-size:50px ;
+}
+.sec5{
+    height: 700px;
+    width: 100%;
+    border: 10px solid rgb(146, 25, 25);
+    display: inline-block;}
+.sec5, .h6{
+        font-family:'Beau Rivage' ;
+        text-align: left;
+        font-size: 50px;
+        float: left;
+        text-decoration: underline rgb(146, 25, 25);
+        margin-top: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+.sec5 .img{
+       height: 400px;
+       /* display: inline-block; */
+        }
+        
+ .sec5 .par1{
+    border: 20px dotted black;
+    height: 425px;
+    width: 525px;
+    display: inline-block;
+    box-shadow:10px 10px 10px 10px pink ;
+    margin-right: 30%;
+    margin-left: 3%;
+    position: absolute;
+    left: 200px;
+    font-size: 30px;
+ }
+    
+
+.sec5 .par2{
+       border: 20px dotted black;
+       height: 475px;
+       width: 515px;
+       font-size: 30px;
+       margin-bottom: 50px;
+       box-shadow: 10px 10px 10px 10px rgb(49, 171, 179);
+       display: inline-block;
+       clear: both;
+       position: absolute;
+       left: 850px;
+      }
+.sec5, .h5{
+    color: rgb(146, 25, 25);
+}
+.foot{
+    border: 1px solid black;
+    height: 300px;
+    clear: both;
+    }
+.coloumn{
+    height: 300px;
+    width: 33.33%;
+    padding: 3%;
+    float: left;
+    box-sizing: border-box;
+    border-left: 2px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(49, 171, 179);;
+}
+.coloumn ul li{
+    list-style: none;
+    margin: 5px 15px;
+    display: inline-block;
+    text-align: center;
+}
+a, .footer{
+    text-decoration: none;
+    
+}
+
+    
+  

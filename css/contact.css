@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    
+    
+}
+nav{
+    background-image:url(/The\ Art.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    }
+    nav, ul{
+        list-style: none;
+        text-align: right;
+
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 3px 15px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 15px;
+        padding: 40px;
+        color: rgb(49, 171, 179);
+    }
+    nav ul li a:hover{
+        background-color: rgb(208, 134, 154);
+    }
+ .contact{
+    text-align: center;
+    font-size: 30px;
+
+}
+.maps{
+    background-color: aqua;
+    box-shadow: 10px 10px gray;
+}
+.info{
+    float: right;
+    text-decoration: none;
+    font-size: 35px;
+    margin-right: 1%;
+    margin-top: 5%;
+    text-align: right;
+}
+.info li a{
+    text-decoration: none;
+}
+.form{
+    margin-top: 1%;
+}
+
+.foot{
+    height: 30px;
+    width: 100%;
+}
+.coloumn{
+    height: 150px;
+    width: 33.33%;
+    box-sizing: border-box;
+    float: left;
+    padding: 3%;
+    border-left: 2px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    background-color: aqua;
+    
+}
+ul, li, .footer{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px 15px
+}
