@@ -93,9 +93,12 @@ h1{
       
   }
   .ownerpic{
+    background-image:url('https://jmoultrey.github.io/Floral-Arte-/owner fa.jpg') ;
+    height: 490px;
+    width: 450px;
     position: absolute;
     display: inline-block;
-    margin-left: 1000px;
+    margin-left: 950px;
     margin-top: -105%;
     border: 5px solid red;
     box-shadow: 15px 15px 15px 15px green;
@@ -107,7 +110,7 @@ h1{
     text-align: center;
     border: 5px  solid green;
     box-shadow: 15px 15px 15px 15px red;
-    margin-left: 500px;
+    margin-left: 475px;
     margin-top: -460px;
   }
   
